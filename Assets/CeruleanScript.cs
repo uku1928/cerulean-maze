@@ -278,7 +278,7 @@ public class CeruleanScript : MonoBehaviour {
                             if (!dir[b])
                             {
                                 module.HandleStrike();
-                                Debug.LogFormat("[Cerulean Maze #{0}] Cannot move {1}.", moduleID, new string[] { "Up", "Dpwn", "Left", "Right" }[b]);
+                                Debug.LogFormat("[Cerulean Maze #{0}] Cannot move {1}.", moduleID, new string[] { "Up", "Down", "Left", "Right" }[b]);
                             }
                             else
                             {
